@@ -27,6 +27,14 @@ export const Container = styled.div `
     line-height: 3rem;
   }
 
+  & .outcome{
+    color: var(--red);
+  }
+  
+  & .income{
+    color: var(--green);
+  }
+
   & .highlight-background {
     background: var(--green);
     color: #fff;
